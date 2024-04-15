@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="pink"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="250dp"
+        android:layout_height="69dp"
+        android:fontFamily="@font/bowlbyOneSC"
+        android:text="@string/artesanato"
+        android:textAlignment="center"
+        android:textColor="#532518"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="210dp"
+        android:layout_height="54dp"
+        android:background="@drawable/btnentrar"
+        android:fontFamily="@font/bowlbyOneSC"
+        android:text="@string/btnEntrar"
+        android:textColor="#532518"
+        android:textSize="31sp"
+        app:backgroundTint="#00FFFFFF"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_boldd"
+        android:text="@string/bemVindo"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="416dp"
+        android:layout_height="474dp"
+        app:srcCompat="@drawable/fundotelainicio"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
